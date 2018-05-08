@@ -37,7 +37,7 @@ def resize(hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi, sizeLoc):
     if fileExt != 'png':
         print('You are using JPEG. Suggest using PNG to maximize quality')
     else:
-        None
+        return None
     try: 
         defaultImage = Image.open(filename) 
         sizelist = [hdpi,mdpi,xhdpi,xxhdpi,xxxhdpi]
