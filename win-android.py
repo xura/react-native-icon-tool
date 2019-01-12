@@ -35,7 +35,7 @@ def checkFiles(hdpiFiles, LIST_DIR):
 
 def resize(hdpi, mdpi, xhdpi, xxhdpi, xxxhdpi, sizeLoc):
     if fileExt != 'png':
-        print('You are using JPEG. Suggest using PNG to maximize quality')
+        print('Only the PNG Format is accepted.')
     else:
         return None
     try: 
